@@ -1,1 +1,3 @@
 ssssaa
+new console();
+applicationCache;
