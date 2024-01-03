@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header>
+        <div class="obertka_head">
+
+            <div class="wrap not_there">
+                <ul>
+                    <li><a href="./index.html">Главная</a> </li>
+                    <li>Документация</li>
+                    <li><img src="./img/logo.svg" alt="logo" srcset="" class="logo"></li>
+                    <li><a href="./theory.html">Теория</a> </li>
+                    <li><a href="./tests.html">Тесты</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="obertka_block_second">
+            <div class="main-block">
+                <h1>Добро пожаловать на первый урок по CSS FlexBox</h1>
+                <h3>Сегодня мы изучем,какие элементы разместить в виде flex блоков </h3>
+                <h2>Какие элементы следует выкладывать в виде flex блоков?</h2>
+                <p>Для этого мы устанавливаем специальное значение display в родительском элементе тех элементов,
+                    которые вы хотите оформить. В нашем случае
+                    мы хотим расположить элементы &lt;article&gt;, поэтому
+                    мы устанавливаем это значение на &lt;section&gt; (который
+                    становится flex контейнером):
+                </p>
+                <div class="listing">
+                    <div class="listing_first_block">
+                        <p>CSS</p>
+                    </div>
+                    <div class="listing_second_block">
+                        <p>
+                            <span>section</span>{<br>
+                            <span>display</span>:flex;<br>
+                            }
+                        </p>
+                    </div>
+                </div>
+                <h3>В результате у нас получится вот так:</h3>
+                <img src="./img/sampleFlexbox.png" alt="">
+                <p>Так, всего одно объявление делает всё, что нам нужно — здорово, правда? Мы получили 3-х колоночный
+                    макет с колонками равных размеров по ширине и высоте.
+                    Это связано с тем, что значения по умолчанию, заданные для flex элементов (дочерние элементы flex
+                    контейнера),
+                    настроены для решения основных задач. Подробнее об этом позже.
+                    <br><br>
+                    Примечание: вы также можете установить значение display inline-flex, если хотите расставить inline
+                    элементы как flex блоки.
+                </p>
+                <div class="inputs_lesson">
+                    <div class="inputs_of_results plus_width">
+                        <input type="submit" value="Перейти к тесту" onclick="document.location='./quiz.html'">
+                        <input type="submit" value="Следующий урок" onclick="document.location='/theory.html'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="obertka_footer">
+
+            <div class="footer_wrap">
+                <ul>
+                    <li><a href="./index.html">Главная</a> </li>
+                    <li><a href="./theory.html">Теория</a> </li>
+                    <li><a href="./tests.html">Тесты</a></li>
+                </ul>
+                <p>Made with love♥ by: Черепанов Ярослав</p>
+            </div>
+
+        </div>
+    </footer>
+    </main>
+</body>
+
+</html>
