@@ -1,1 +1,2 @@
-ssssaa
+var  babababa;
+babababa = 1;
